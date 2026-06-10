@@ -12,7 +12,7 @@ For instructions, please refer to the README in each folder:
 * [trained_models](trained_models) Contains the ERFNet trained models for the baseline eval. 
 * [eomt](eomt) It is almost the original folder of the EoMT project. Inside it you will find code to train and pretrained checkpoints for EoMT.
 
-## Notebooks explnnations
+## Notebooks explanations
 
 * step4_inference.ipynb: Qualitative analysis of EoMT predictions on Cityscapes. Includes visual inspection of segmentation outputs and label mapping between datasets (COCO-to-Cityscapes).
 
