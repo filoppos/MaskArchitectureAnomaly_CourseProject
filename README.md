@@ -12,7 +12,10 @@ For instructions, please refer to the README in each folder:
 * [trained_models](trained_models) Contains the ERFNet trained models for the baseline eval. 
 * [eomt](eomt) It is almost the original folder of the EoMT project. Inside it you will find code to train and pretrained checkpoints for EoMT.
 
--step4_visualization.ipynbQualitative analysis of ERFNet and EoMT predictions on Cityscapes. Includes visual inspection of segmentation outputs and label mapping between dataset annotation formats.
--step5_finetuning.ipynbFine-tuning of EoMT on Cityscapes with two freezing strategies: whitelist (class/mask head + upscale + positional embeddings) and blacklist (everything outside the encoder). Analyzes trainable parameter distribution.
--step7_erfnet_anomaly.ipynbERFNet anomaly scoring pipeline. Implements MSP, MaxLogit, and MaxEntropy scoring methods evaluated on five anomaly datasets. Reports AuPRC and FPR95 metrics.
--step8_eomt_anomaly.ipynbEoMT anomaly scoring pipeline. Adapts the mask transformer architecture (per-query logits via einsum) to MSP (with temperature scaling), MaxLogit, MaxEntropy, and RbA scoring.
+* step4_visualization.ipynb: Qualitative analysis of EoMT predictions on Cityscapes. Includes visual inspection of segmentation outputs and label mapping between dataset annotation formats.
+
+* step5_finetuning.ipynb: Fine-tuning of EoMT on Cityscapes with four freezing strategies- Analyzes trainable parameter distribution.
+
+* step7_erfnet_anomaly.ipynb: ERFNet anomaly scoring pipeline. Implements MSP, MaxLogit, and MaxEntropy scoring methods evaluated on five anomaly datasets. Reports AuPRC and FPR95 metrics.
+  
+* step8_eomt_anomaly.ipynb: EoMT anomaly scoring pipeline. Adapts the mask transformer architecture (per-query logits via einsum) to MSP (with temperature scaling), MaxLogit, MaxEntropy, and RbA scoring.
