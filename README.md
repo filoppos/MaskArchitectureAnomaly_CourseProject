@@ -16,7 +16,7 @@ For instructions, please refer to the README in each folder:
 
 * step4_inference.ipynb: Qualitative analysis of EoMT predictions on Cityscapes. Includes visual inspection of segmentation and panoptic outputs and label mapping between datasets (COCO-to-Cityscapes).
 
-* step5_finetuning.ipynb: Fine-tuning of EoMT on Cityscapes with four freezing strategies. Analyzes trainable parameter distribution.
+* step5_finetuning.ipynb: Fine-tuning of EoMT on Cityscapes with four freezing strategies.
 
 * step7_erfnet_anomaly.ipynb: ERFNet anomaly scoring pipeline. Implements MSP, MaxLogit, and MaxEntropy scoring methods evaluated on five anomaly datasets. Reports AuPRC and FPR95 metrics.
   
