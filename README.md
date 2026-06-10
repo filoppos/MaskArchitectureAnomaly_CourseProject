@@ -14,7 +14,7 @@ For instructions, please refer to the README in each folder:
 
 ## Notebooks explanations
 
-* step4_inference.ipynb: Qualitative analysis of EoMT predictions on Cityscapes. Includes visual inspection of segmentation outputs and label mapping between datasets (COCO-to-Cityscapes).
+* step4_inference.ipynb: Qualitative analysis of EoMT predictions on Cityscapes. Includes visual inspection of segmentation and panoptic outputs and label mapping between datasets (COCO-to-Cityscapes).
 
 * step5_finetuning.ipynb: Fine-tuning of EoMT on Cityscapes with four freezing strategies. Analyzes trainable parameter distribution.
 
