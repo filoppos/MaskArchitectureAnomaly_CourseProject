@@ -12,9 +12,11 @@ For instructions, please refer to the README in each folder:
 * [trained_models](trained_models) Contains the ERFNet trained models for the baseline eval. 
 * [eomt](eomt) It is almost the original folder of the EoMT project. Inside it you will find code to train and pretrained checkpoints for EoMT.
 
-* step4_visualization.ipynb: Qualitative analysis of EoMT predictions on Cityscapes. Includes visual inspection of segmentation outputs and label mapping between dataset annotation formats.
+## Notebooks explnnations
 
-* step5_finetuning.ipynb: Fine-tuning of EoMT on Cityscapes with four freezing strategies- Analyzes trainable parameter distribution.
+* step4_inference.ipynb: Qualitative analysis of EoMT predictions on Cityscapes. Includes visual inspection of segmentation outputs and label mapping between datasets (COCO-to-Cityscapes).
+
+* step5_finetuning.ipynb: Fine-tuning of EoMT on Cityscapes with four freezing strategies. Analyzes trainable parameter distribution.
 
 * step7_erfnet_anomaly.ipynb: ERFNet anomaly scoring pipeline. Implements MSP, MaxLogit, and MaxEntropy scoring methods evaluated on five anomaly datasets. Reports AuPRC and FPR95 metrics.
   
