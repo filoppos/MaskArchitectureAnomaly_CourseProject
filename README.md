@@ -16,8 +16,10 @@ For instructions, please refer to the README in each folder:
 
 * step4_inference.ipynb: Qualitative analysis of EoMT predictions on Cityscapes. Includes visual inspection of segmentation and panoptic outputs and label mapping between datasets (COCO-to-Cityscapes).
 
-* step5_finetuning.ipynb: Fine-tuning of EoMT on Cityscapes with four freezing strategies.
-
-* step7_erfnet_anomaly.ipynb: ERFNet anomaly scoring pipeline. Implements MSP, MaxLogit, and MaxEntropy scoring methods evaluated on five anomaly datasets. Reports AuPRC and FPR95 metrics.
+* step5_config_1_2_3.ipynb: Fine-tuning of EoMT on Cityscapes with the first three freezing strategies adopted (*config_head_only*,*config_head_upscale*,*config_head_upscale_query*)
   
-* step8_eomt_anomaly.ipynb: EoMT anomaly scoring pipeline. Adapts the mask transformer architecture (per-query logits via einsum) to MSP (with temperature scaling), MaxLogit, MaxEntropy, and RbA scoring.
+* step5_config_blocks_10_11.ipynb: Fine-tuning of EoMT on Cityscapes unfreezing some layers of the encoder as well (*config_blocks_10_11*) 
+
+* step7.ipynb: ERFNet anomaly scoring pipeline. Implements MSP, MaxLogit, and MaxEntropy scoring methods evaluated on five anomaly datasets. Reports AuPRC and FPR95 metrics.
+  
+* step8.ipynb: EoMT anomaly scoring pipeline. Adapts the mask transformer architecture (per-query logits via einsum) to MSP (with temperature scaling), MaxLogit, MaxEntropy, and RbA scoring.
