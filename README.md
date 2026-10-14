@@ -87,6 +87,11 @@ Full results across all five benchmarks (SMIYC RA-21, SMIYC RO-21, FS L&F, FS St
 
 ---
 
+## Report
+The full technical report is available [here](project_report.pdf).
+
+---
+
 ## Team
 
 Filippo Manca, Leonardo Recchia, Giovanni Massetti, Livia Scoppola  
